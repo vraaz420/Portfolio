@@ -1,0 +1,72 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro{
+    margin: 30px 0 0 60px;
+}
+.intro h1,h2,h3{
+    display: inline-block;
+    color:rgb(47, 47, 126);
+    margin: 15px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(47, 47, 126);
+    margin-bottom: 25px;
+    
+}
+.intro .sec1 p{
+    color: rgb(101, 101, 148);
+    margin: 0 15px;
+    line-height: 23px;
+   
+}
+.skillcontainer{
+    padding: 15px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.skill{
+    border: 2px solid black;
+}
+.ninty{
+width: 800px;
+height: 8px;
+background-color: green;
+}
+
+
+.eighty{
+    width: 670px;
+    height: 8px;
+background-color: orange;
+}
+
+.seventy{
+    height: 8px;
+    width: 760px;
+background-color: green;
+}
+.twenty{
+    height: 8px;
+    width: 600px;
+background-color: orange;
+}
+
+.intro .sec3 p{
+    color:rgb(26, 26, 82) ;
+    font-size: 20px;
+    margin:15px 15px;
+}
+
+.sec3 ul li{
+    color:rgb(101, 101, 148) ;
+    margin-left: 35px;
+}

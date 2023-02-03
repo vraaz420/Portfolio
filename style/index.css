@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Fira+Sans:wght@300;400&family=Lora:ital@0;1&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Raleway:ital,wght@0,300;1,300&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Fira+Sans:wght@300;400&family=Lora:ital@0;1&family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Raleway:ital,wght@0,300;1,300&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(31, 31, 86);
+    height: 100vh;
+    transition: transform 0.1s ease-in;
+    width:150px
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 30px 0px;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.sidebar nav ul li a:hover{
+  
+    border-bottom: 2px solid #fff;
+}
+.main{
+    /* background-color: aqua; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    display: flex;
+    /* background-color: bisque; */
+    height: 65vh;
+    width: 80vw;
+    margin:90px auto;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+.hello{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.8em;
+    
+}
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    font-weight:400;
+}
+.about{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;    
+}
+
+.moreabout{
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px
+    
+}
+.buttons{
+    margin-top: 2em;
+    /* font-size: 16px; */
+    
+}
+.buttons button{
+    color: aliceblue;
+    background-color: rgb(85, 79, 79);
+    padding: 5px 8px;
+    border-radius: 22px;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 3px 4px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color:rgb(85, 79, 79);
+    background-color: #fff;
+}
+/* .devPic img{
+    height: 65vh;
+    width: 20vw;
+    
+} */
+
+.sidebargo{
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 15px;
+}
+
+.cross{
+    margin-left: 110px;
+}
+
+/* @media (max-width:1350px){
+    *{
+
+    }
+    
+   
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .intro,.blogContainer,.contactform{
+        margin: 50px 8px;
+    }
+}
+@media (max-width:900px){
+
+    .infoContainer{
+        margin-top: 0px;
+    }
+    .buttons{
+        font-size: 8px;
+    }
+} */
